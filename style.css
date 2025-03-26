@@ -1,0 +1,105 @@
+/* Reset e configurações básicas */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f8;
+  }
+  
+  h2 {
+    color: #212529;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Seções */
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Sobre Mim */
+  #about img {
+    border: 4px solid #0d6efd;
+    margin-bottom: 20px;
+  }
+  
+  /* Projetos */
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-icon {
+    font-size: 3rem;
+    color: #0d6efd;
+  }
+  
+  /* Formulário */
+  .contact-form .form-control {
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .contact-form button {
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0a58ca;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #0a58ca;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .project-card {
+      margin-bottom: 20px;
+    }
+  }
+  
